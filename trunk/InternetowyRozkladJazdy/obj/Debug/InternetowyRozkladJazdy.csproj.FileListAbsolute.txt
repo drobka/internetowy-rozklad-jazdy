@@ -1,0 +1,5 @@
+C:\Users\stepel\documents\visual studio 2010\Projects\InternetowyRozkladJazdy\InternetowyRozkladJazdy\bin\InternetowyRozkladJazdy.dll
+C:\Users\stepel\documents\visual studio 2010\Projects\InternetowyRozkladJazdy\InternetowyRozkladJazdy\bin\InternetowyRozkladJazdy.pdb
+C:\Users\stepel\documents\visual studio 2010\Projects\InternetowyRozkladJazdy\InternetowyRozkladJazdy\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\stepel\documents\visual studio 2010\Projects\InternetowyRozkladJazdy\InternetowyRozkladJazdy\obj\Debug\InternetowyRozkladJazdy.dll
+C:\Users\stepel\documents\visual studio 2010\Projects\InternetowyRozkladJazdy\InternetowyRozkladJazdy\obj\Debug\InternetowyRozkladJazdy.pdb
