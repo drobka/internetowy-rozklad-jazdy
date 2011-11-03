@@ -48,7 +48,7 @@
 
                     <!-- Footer start -->
         <p class="footer">
-            <span class="floatLeft"><a href="#">Internetowy Rozkład Jazdy</a> - Piotr Stęplewski, Michał Kaczmarek</span>
+            <span class="floatLeft"><a href="#">Internetowy Rozkład Jazdy</a> - Piotr Stęplewski, Michał Kowalczyk</span>
         </p>
         <!-- Footer end -->
 
