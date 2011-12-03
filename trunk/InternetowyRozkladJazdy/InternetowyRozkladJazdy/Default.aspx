@@ -46,9 +46,9 @@
 
         </div>
 
-                    <!-- Footer start -->
+        <!-- Footer start -->
         <p class="footer">
-            <span class="floatLeft"><a href="#">Internetowy Rozkład Jazdy</a> - Piotr Stęplewski, Michał Kowalczyk</span>
+            <span class="floatLeft"><a href="#">Internetowy Rozkład Jazdy</a> - Michał Kowalczyk, Piotr Stęplewski</span>
         </p>
         <!-- Footer end -->
 
