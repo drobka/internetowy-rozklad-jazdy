@@ -39,7 +39,12 @@
                 <li>
                     <h2>&nbsp;</h2>
                     <table height="90px"></table>
-                    <a href="./" class="button"><span>Wyszukaj</span></a>
+                    <asp:HyperLink id="hyperlink1" 
+                                   NavigateUrl="~/ShowResults.aspx"
+                                   Text="Wyszukaj połączenie"
+                                   ImageUrl="~/Images/send.jpg"
+                                   Target="_self"
+                                   runat="server"/>       
                 </li>
             </ul>
             <!-- cols end -->
