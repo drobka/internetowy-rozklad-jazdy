@@ -51,14 +51,15 @@
     <Reference Include="System.Web.ApplicationServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="About.aspx" />
     <Content Include="About.html" />
     <Content Include="Account\ChangePassword.aspx" />
     <Content Include="Account\ChangePasswordSuccess.aspx" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Register.aspx" />
     <Content Include="Contact.html" />
+    <Content Include="Images\crash.jpg" />
     <Content Include="Images\old_bus2.jpg" />
+    <Content Include="Images\send.jpg" />
     <Content Include="Styles\print.css" />
     <Content Include="Styles\screen.css" />
     <Content Include="Images\arrow.gif" />
@@ -73,7 +74,6 @@
     <Content Include="Images\button-start.jpg" />
     <Content Include="Images\image-bg.jpg" />
     <Content Include="Images\li.jpg" />
-    <Content Include="Images\tempixo-com.gif" />
     <Content Include="Scripts\cufon-config.js" />
     <Content Include="Scripts\cufon.js" />
     <Content Include="Scripts\font.js" />
@@ -92,15 +92,9 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
+    <Content Include="ShowResults.aspx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="About.aspx.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="About.aspx.designer.cs">
-      <DependentUpon>About.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Account\ChangePassword.aspx.cs">
       <DependentUpon>ChangePassword.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -146,6 +140,13 @@
     </Compile>
     <Compile Include="Site.Master.designer.cs">
       <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ShowResults.aspx.cs">
+      <DependentUpon>ShowResults.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ShowResults.aspx.designer.cs">
+      <DependentUpon>ShowResults.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
