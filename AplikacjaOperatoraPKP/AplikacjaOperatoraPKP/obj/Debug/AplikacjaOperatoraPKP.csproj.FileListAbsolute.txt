@@ -1,0 +1,5 @@
+C:\Users\stepel\Documents\Visual Studio 2010\Projects\internetowy-rozklad-jazdy\AplikacjaOperatoraPKP\AplikacjaOperatoraPKP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\stepel\Documents\Visual Studio 2010\Projects\internetowy-rozklad-jazdy\AplikacjaOperatoraPKP\AplikacjaOperatoraPKP\bin\AplikacjaOperatoraPKP.dll
+C:\Users\stepel\Documents\Visual Studio 2010\Projects\internetowy-rozklad-jazdy\AplikacjaOperatoraPKP\AplikacjaOperatoraPKP\bin\AplikacjaOperatoraPKP.pdb
+C:\Users\stepel\Documents\Visual Studio 2010\Projects\internetowy-rozklad-jazdy\AplikacjaOperatoraPKP\AplikacjaOperatoraPKP\obj\Debug\AplikacjaOperatoraPKP.dll
+C:\Users\stepel\Documents\Visual Studio 2010\Projects\internetowy-rozklad-jazdy\AplikacjaOperatoraPKP\AplikacjaOperatoraPKP\obj\Debug\AplikacjaOperatoraPKP.pdb
