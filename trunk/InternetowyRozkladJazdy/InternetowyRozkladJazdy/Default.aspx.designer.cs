@@ -40,57 +40,48 @@ namespace InternetowyRozkladJazdy {
         protected global::System.Web.UI.WebControls.Label Label3;
         
         /// <summary>
-        /// Label4 control.
+        /// DropDownListStart control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Label4;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListStart;
         
         /// <summary>
-        /// TextBox1 control.
+        /// SqlDataSourceStart control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox1;
+        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceStart;
         
         /// <summary>
-        /// TextBox2 control.
+        /// DropDownListStop control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox2;
+        protected global::System.Web.UI.WebControls.DropDownList DropDownListStop;
         
         /// <summary>
-        /// TextBox3 control.
+        /// DataTimePicker control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox3;
+        protected global::Mark.Web.UI.WebControls.DateTimePicker DataTimePicker;
         
         /// <summary>
-        /// TextBox4 control.
+        /// ButtonWyszukaj control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TextBox4;
-        
-        /// <summary>
-        /// hyperlink1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink hyperlink1;
+        protected global::System.Web.UI.WebControls.ImageButton ButtonWyszukaj;
     }
 }

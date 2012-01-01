@@ -11,7 +11,7 @@ namespace InternetowyRozkladJazdy
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            LabelData.Text = Request.QueryString["DateString"];
         }
     }
 }
