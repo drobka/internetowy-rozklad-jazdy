@@ -21,27 +21,38 @@
     <div class="wrap container clearfix">
             
             <div class="content">
-                <h1>Wyszukaj połączenia</h1>
+                <h1>Wyszukaj połączenia</h1><br />
                 <p>
+                <asp:Label ID="LabelData" runat="server" Text="" CssClass="bold" Font-Underline="true" Font-Size="Medium"></asp:Label>
                     <asp:GridView ID="GridView1" runat="server" AllowPaging="True" 
-                        AutoGenerateColumns="False" DataSourceID="SqlDataSource1">
+                        AutoGenerateColumns="False" DataSourceID="SqlDataSource1" Width="595px">
                         <Columns>
-                            <asp:BoundField DataField="id_stacja_start" HeaderText="id_stacja_start" 
-                                SortExpression="id_stacja_start" />
-                            <asp:BoundField DataField="id_stacja_koniec" HeaderText="id_stacja_koniec" 
-                                SortExpression="id_stacja_koniec" />
-                            <asp:BoundField DataField="id_data_odjazdu" HeaderText="id_data_odjazdu" 
-                                SortExpression="id_data_odjazdu" />
-                            <asp:BoundField DataField="godzina_odjazdu" HeaderText="godzina_odjazdu" 
-                                SortExpression="godzina_odjazdu" />
-                            <asp:BoundField DataField="id_odleglosc" HeaderText="id_odleglosc" 
-                                SortExpression="id_odleglosc" />
+                            <asp:BoundField DataField="column1" HeaderText="St. początkowa" 
+                                SortExpression="column1" />
+                            <asp:BoundField DataField="column2" HeaderText="St. końcowa" 
+                                SortExpression="column2" />
+                            <asp:BoundField DataField="column3" HeaderText="Godz. odjazdu" 
+                                SortExpression="column3" />
+                            <asp:BoundField DataField="Data" HeaderText="Legenda" 
+                                SortExpression="Data" />
+                            <asp:BoundField DataField="Odległość" HeaderText="Odległość" 
+                                SortExpression="Odległość" />
+                            <asp:BoundField DataField="Przewoźnik" HeaderText="Przewoźnik" 
+                                SortExpression="Przewoźnik" />
+                            <asp:BoundField DataField="Cena" HeaderText="Cena" 
+                                SortExpression="Cena" />
                         </Columns>
                     </asp:GridView>
                     <asp:SqlDataSource ID="SqlDataSource1" runat="server" 
                         ConnectionString="<%$ ConnectionStrings:baza_zbiorczaConnectionString %>" 
                         
-                        SelectCommand="SELECT [id_stacja_start], [id_stacja_koniec], [id_data_odjazdu], [godzina_odjazdu], [id_odleglosc] FROM [Polaczenia_zest]">
+                        SelectCommand="SELECT [St. początkowa] AS column1, [St. końcowa] AS column2, [Data], [Godz. odjazdu] AS column3, [Odległość], [Przewoźnik], [Cena] FROM [Zest_unia_st] WHERE (([St. początkowa] = @column1) AND ([St. końcowa] = @column2))">
+                        <SelectParameters>
+                            <asp:QueryStringParameter Name="column1" QueryStringField="Start" 
+                                Type="String" />
+                            <asp:QueryStringParameter Name="column2" QueryStringField="Stop" 
+                                Type="String" />
+                        </SelectParameters>
                     </asp:SqlDataSource>
                 </p> 
                 <p>

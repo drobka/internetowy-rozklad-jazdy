@@ -9,6 +9,9 @@ namespace InternetowyRozkladJazdy
 {
     public class Global : System.Web.HttpApplication
     {
+        public static int Start;
+        public static int Stop;
+        public static DateTime Data;
 
         void Application_Start(object sender, EventArgs e)
         {
