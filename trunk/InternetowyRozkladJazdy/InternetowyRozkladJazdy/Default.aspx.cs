@@ -28,24 +28,24 @@ namespace InternetowyRozkladJazdy
 
         protected void ButtonWyszukaj_Click(object sender, ImageClickEventArgs e)
         {
-            if (DropDownListStart.SelectedValue == DropDownListStop.SelectedValue)
-            {
-                ShowPopUpMsg("Stacja początkowa nie może być taka sama jak stacja końcowa.");
-            }
-            else if (DataTimePicker.Text == "")
-            {
-                ShowPopUpMsg("Nie wybrano daty lub godziny odjazdu.");
-            }
-            else
-            {
-               // Global.Start = Int32.Parse(DropDownListStart.SelectedValue);
-                //Global.Stop = Int32.Parse(DropDownListStop.SelectedValue);
-                Global.Data = DataTimePicker.DateTime;
-                Response.Redirect("ShowResults.aspx?Start=" + DropDownListStart.SelectedValue + 
-                                  "&Stop=" + DropDownListStop.SelectedValue +
-                                  "&Date=" + DataTimePicker.DateTime.ToShortDateString() +
-                                  "&DateNatural=" + DataTimePicker.DateTime.ToLongDateString());
-            }
+if (DropDownListStart.SelectedValue == DropDownListStop.SelectedValue)
+{
+    ShowPopUpMsg("Stacja początkowa nie może być taka sama jak stacja końcowa.");
+}
+else if (DataTimePicker.Text == "")
+{
+    ShowPopUpMsg("Nie wybrano daty lub godziny odjazdu.");
+}
+else
+{
+    // Global.Start = Int32.Parse(DropDownListStart.SelectedValue);
+    //Global.Stop = Int32.Parse(DropDownListStop.SelectedValue);
+    Global.Data = DataTimePicker.DateTime;
+    Response.Redirect("ShowResults.aspx?Start=" + DropDownListStart.SelectedValue + 
+                        "&Stop=" + DropDownListStop.SelectedValue +
+                        "&Date=" + DataTimePicker.DateTime.ToShortDateString() +
+                        "&DateNatural=" + DataTimePicker.DateTime.ToLongDateString());
+}
         }
     }
 }

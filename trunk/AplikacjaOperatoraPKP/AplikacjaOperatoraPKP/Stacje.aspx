@@ -22,10 +22,10 @@ CodeBehind="Stacje.aspx.cs" Inherits="AplikacjaOperatoraPKP.Stacje" %>
 
         <asp:SqlDataSource ID="SqlDataSourceStacje" runat="server" 
             ConnectionString="<%$ ConnectionStrings:baza_pkpConnectionString %>" 
-            DeleteCommand="DELETE FROM [T_Pkp_Stacja] WHERE [id] = @id" 
-            InsertCommand="INSERT INTO [T_Pkp_Stacja] ([id], [nazwa]) VALUES (@id, @nazwa)" 
-            SelectCommand="SELECT [id], [nazwa] FROM [T_Pkp_Stacja]" 
-            UpdateCommand="UPDATE [T_Pkp_Stacja] SET [nazwa] = @nazwa WHERE [id] = @id">
+            DeleteCommand="DELETE FROM [Stacja] WHERE [id] = @id" 
+            InsertCommand="INSERT INTO [Stacja] ([id], [nazwa]) VALUES (@id, @nazwa)" 
+            SelectCommand="SELECT [id], [nazwa] FROM [Stacja]" 
+            UpdateCommand="UPDATE [Stacja] SET [nazwa] = @nazwa WHERE [id] = @id">
             <DeleteParameters>
                 <asp:Parameter Name="id" Type="Int32" />
             </DeleteParameters>
